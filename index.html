@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swapnil Vats | AI Builder & Design-Minded Developer</title>
+  <meta name="description" content="Portfolio of Swapnil Vats - Final-year B.Tech CSE student specializing in AI engineering, RAG workflows, and product & UI/UX design thinking.">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Swapnil Vats | AI Builder & Design-Minded Developer">
+  <meta property="og:description" content="AI-powered tools and workflows from RAG systems to risk dashboards, crafted with product and UI/UX design thinking.">
+  <meta property="og:image" content="assets/og-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Swapnil Vats | AI Builder & Design-Minded Developer">
+  <meta name="twitter:description" content="AI-powered tools and workflows crafted with product and UI/UX design thinking.">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b0f17'/><text x='50%' y='62%' font-size='46' font-family='sans-serif' font-weight='800' fill='%2300f2a1' text-anchor='middle'>SV</text></svg>">
+
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Swapnil Vats Home">
+        <span class="logo-badge">SV</span>
+        <span class="logo-text">Swapnil Vats</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#case-study" class="nav-link">Case Study</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light/dark theme" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile hamburger button -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open mobile navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="hero-section section">
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-indicator"></span>
+            <span>Targeting AI Generalist (Design) Roles</span>
+          </div>
+
+          <h1 class="hero-name">Swapnil Vats</h1>
+          <h2 class="hero-headline">AI Builder &amp; <span class="gradient-text">Design-Minded</span> Developer</h2>
+          <p class="hero-tagline">
+            I build AI-powered tools and workflows, from RAG systems to risk dashboards, and I care how they look and feel.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#case-study" class="btn btn-secondary">
+              Read Case Study
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-outline" download="Swapnil_Vats_Resume.pdf">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://github.com/SwapVat" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/vatswapnil" class="social-icon-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:swapnilvatssv@gmail.com" class="social-icon-link" aria-label="Email Swapnil Vats">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>swapnilvatssv@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Profile</p>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative-card">
+            <p class="about-text">
+              Final-year Computer Science undergraduate skilled in Python, JavaScript/TypeScript and Java, building and deploying AI-powered tools and workflows with GenAI, RAG and REST APIs. Strong problem-solving, clear communication and cross-functional collaboration, suited to AI-driven design tooling and workflow automation.
+            </p>
+          </div>
+
+          <div class="quick-facts-row" aria-label="Quick facts">
+            <div class="fact-card">
+              <span class="fact-label">Degree</span>
+              <strong class="fact-val">B.Tech CSE</strong>
+              <span class="fact-sub">Computer Science &amp; Engineering</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-label">Institution</span>
+              <strong class="fact-val">SRM Institute of Science and Technology</strong>
+              <span class="fact-sub">Kattankulathur, Chennai</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-label">Timeline</span>
+              <strong class="fact-val">2023 – 2027</strong>
+              <span class="fact-sub">Final-year Undergraduate</span>
+            </div>
+            <div class="fact-card highlight-card">
+              <span class="fact-label">Academic CGPA</span>
+              <strong class="fact-val cgpa-val">8.94 <span class="cgpa-max">/ 10</span></strong>
+              <span class="fact-sub">Consistent high standing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. PROJECTS SECTION -->
+    <section id="projects" class="projects-section section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Engineering &amp; AI Systems</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Intelligent tools combining retrieval-augmented architectures, structured reasoning, and clean product interfaces.</p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Featured Card -->
+          <article class="project-card project-card--featured">
+            <div class="project-preview">
+              <div class="preview-placeholder">
+                <div class="preview-badge">Featured Project</div>
+                <div class="preview-illustration">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                    <line x1="14" y1="4" x2="10" y2="20"></line>
+                  </svg>
+                  <span>Codebase Explorer Screenshot</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type-tag">Hybrid RAG &amp; Reasoning</span>
+                <h3 class="project-title">Codebase Explorer</h3>
+              </div>
+
+              <div class="tech-chips" aria-label="Technologies used">
+                <span class="chip">Python</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">React</span>
+                <span class="chip">ChromaDB</span>
+                <span class="chip">Groq (LLaMA 3.3)</span>
+                <span class="chip">Sentence Transformers</span>
+              </div>
+
+              <ul class="project-bullets">
+                <li>Built a Python/FastAPI backend using RAG and LLMs to process and query unstructured codebases.</li>
+                <li>Developed a hybrid AI workflow combining vector search and LLM reasoning for structured output.</li>
+                <li>Tested and validated with a dedicated testing framework, achieving 70% precision accuracy.</li>
+              </ul>
+
+              <div class="project-actions">
+                <div class="action-with-note">
+                  <a href="https://codebase-explorer-blush.vercel.app" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                  <span class="render-load-note">May take a moment to load</span>
+                </div>
+                <a href="https://github.com/SwapVat/Codebase-Explorer" class="btn btn-sm btn-secondary" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-placeholder">
+                <div class="preview-illustration">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                  <span>AI Contract Risk Scanner</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type-tag">Risk Dashboard &amp; NLP</span>
+                <h3 class="project-title">AI Contract Risk Scanner</h3>
+              </div>
+
+              <div class="tech-chips" aria-label="Technologies used">
+                <span class="chip">React</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Express</span>
+                <span class="chip">Supabase</span>
+                <span class="chip">Groq</span>
+              </div>
+
+              <ul class="project-bullets">
+                <li>Built a React-based frontend for an AI-powered contract analysis tool, including a risk-scoring dashboard with reusable UI components.</li>
+                <li>Implemented JWT authentication and REST API integration between the React frontend and Node.js/Express backend.</li>
+                <li>Handled PDF extraction and PostgreSQL storage on the backend, with CI/CD deployment.</li>
+              </ul>
+
+              <div class="project-actions">
+                <div class="action-with-note">
+                  <a href="https://contract-scanner-client.vercel.app" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                  <span class="render-load-note">May take a moment to load</span>
+                </div>
+                <a href="https://github.com/SwapVat/Contract-Scanner" class="btn btn-sm btn-secondary" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="preview-placeholder">
+                <div class="preview-illustration">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m4.93 4.93 4.24 4.24"></path>
+                    <path d="m14.83 9.17 4.24-4.24"></path>
+                    <path d="m14.83 14.83 4.24 4.24"></path>
+                    <path d="m9.17 14.83-4.24 4.24"></path>
+                  </svg>
+                  <span>IPL Transfer Credibility Engine</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type-tag">Graph AI &amp; Source Reliability</span>
+                <h3 class="project-title">IPL Transfer Credibility Engine</h3>
+              </div>
+
+              <div class="tech-chips" aria-label="Technologies used">
+                <span class="chip">Next.js</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">Neo4j</span>
+                <span class="chip">Google Gemini</span>
+              </div>
+
+              <ul class="project-bullets">
+                <li>Built an AI-powered scoring tool with Gemini GenAI, integrating REST APIs across frontend and backend.</li>
+                <li>Developed a source-reliability model, analysing 15+ sources against defined criteria for data-driven insights.</li>
+                <li>Delivered an end-to-end web app owning backend logic, API design, testing and live deployment.</li>
+              </ul>
+
+              <div class="project-actions">
+                <div class="action-with-note">
+                  <a href="https://ipl-transfer-credibility-engine.vercel.app" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                  <span class="render-load-note">May take a moment to load</span>
+                </div>
+                <a href="https://github.com/SwapVat/IPL-Transfer-Credibility-Engine" class="btn btn-sm btn-secondary" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Also Built Card -->
+          <article class="project-card project-card--secondary">
+            <div class="project-preview">
+              <div class="preview-placeholder">
+                <div class="preview-illustration">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                  <span>SAP Process Simulator</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <div class="also-built-tag">Also Built • Enterprise Tool</div>
+                <h3 class="project-title">SAP Enterprise Process Simulator</h3>
+              </div>
+
+              <div class="tech-chips" aria-label="Technologies used">
+                <span class="chip">React</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Express</span>
+                <span class="chip">SQLite</span>
+                <span class="chip">Vercel</span>
+                <span class="chip">Render</span>
+              </div>
+
+              <ul class="project-bullets">
+                <li>Built a full-stack tool simulating Procurement, Sales and Finance workflows using REST APIs and SQL.</li>
+                <li>Implemented backend validation rules such as 3-way match and credit checks to handle edge cases.</li>
+              </ul>
+
+              <div class="project-actions">
+                <div class="action-with-note">
+                  <a href="https://sap-enterprise-process-simulator.vercel.app" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                  <span class="render-load-note">May take a moment to load</span>
+                </div>
+                <a href="https://github.com/SwapVat/sap-enterprise-process-simulator" class="btn btn-sm btn-secondary" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. CASE STUDY SECTION -->
+    <section id="case-study" class="case-study-section section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Product &amp; UX Thinking</p>
+          <h2 class="section-title">Product &amp; UX Case Study</h2>
+          <p class="section-subtitle">Bridging user behavioral insights, prioritization frameworks, and iterative interface design.</p>
+        </div>
+
+        <div class="case-study-card">
+          <div class="case-study-hero-banner">
+            <div class="case-study-tag">Featured UX Case Study</div>
+            <h3 class="case-study-title">Zepto Daily: Fixing Quick-Commerce Retention</h3>
+            
+            <div class="stat-chips-row" aria-label="Key case study stats">
+              <div class="stat-chip">
+                <span class="stat-chip-num">10</span>
+                <span class="stat-chip-label">user interviews</span>
+              </div>
+              <div class="stat-chip">
+                <span class="stat-chip-num">2</span>
+                <span class="stat-chip-label">personas</span>
+              </div>
+              <div class="stat-chip">
+                <span class="stat-chip-num">4</span>
+                <span class="stat-chip-label">problems prioritised</span>
+              </div>
+              <div class="stat-chip">
+                <span class="stat-chip-num">6-week</span>
+                <span class="stat-chip-label">A/B test</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-study-body">
+            <p class="case-study-summary">
+              Zepto struggles to turn first-time users into daily habit users because the app gives them no reason to open it unless they urgently need groceries. I interviewed 10 users, built personas, prioritised four problems by user impact, business impact and feasibility, and designed Zepto Daily, a personalised daily deal feature with a morning notification, a Daily tab, a 'Your Usuals' reorder row and a streak reward. The case study also covers success metrics, a 6-week A/B test plan targeting D30 retention improving from 50% to 60%, risks and tradeoffs, and a phased launch plan.
+            </p>
+
+            <div class="case-study-action">
+              <a href="https://holy-drink-246.notion.site/Zepto-Daily-Product-Case-Study-37d2d3e2bbf280919ab5d547c88e491c" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-case-study">
+                Read Full Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+
+            <!-- Mockups Area -->
+            <div class="mockups-section">
+              <h4 class="mockups-title">Interface Design &amp; Feature Previews</h4>
+              <p class="mockups-subtitle">Key design touchpoints addressing habit formation and morning reorders.</p>
+
+              <div class="mockup-grid">
+                
+                <!-- Mockup 1: Morning Notification -->
+                <div class="mockup-card">
+                  <div class="mockup-media-box">
+                    <div class="mockup-device-wrapper mockup-notif">
+                      <div class="notif-pill">
+                        <div class="notif-header">
+                          <span class="notif-app-icon">⚡</span>
+                          <span class="notif-app-name">Zepto Daily • 7:30 AM</span>
+                        </div>
+                        <div class="notif-content">
+                          <strong>Good morning, Swapnil! ☀️</strong>
+                          <p>Your Usuals (Fresh Milk &amp; Sourdough) are packed with today’s ₹15 daily streak perk. Tap to dispatch in 10 mins.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mockup-caption">
+                    <span class="caption-tag">Touchpoint 1</span>
+                    <h5>Personalised Morning Notification Preview</h5>
+                    <p>Trigger-based morning hook tailored to habitual breakfast essentials.</p>
+                  </div>
+                </div>
+
+                <!-- Mockup 2: Daily Tab Screen -->
+                <div class="mockup-card">
+                  <div class="mockup-media-box">
+                    <div class="mockup-device-wrapper mockup-screen">
+                      <div class="screen-wireframe">
+                        <div class="screen-header-bar">
+                          <span class="screen-status-time">09:41</span>
+                          <span class="screen-notch"></span>
+                          <span class="screen-icons">📶 100%</span>
+                        </div>
+                        <div class="screen-app-top">
+                          <span class="brand-pill">⚡ Zepto Daily</span>
+                          <span class="streak-badge">🔥 4-Day Streak</span>
+                        </div>
+                        <div class="screen-hero-offer">
+                          <div class="offer-tag">Daily Exclusive Deal</div>
+                          <div class="offer-title">Farm Fresh Milk + Bread Combo</div>
+                          <div class="offer-price">Save ₹25 Today</div>
+                        </div>
+                        <div class="screen-section-title">Your Usuals (1-Tap Reorder)</div>
+                        <div class="screen-usuals-row">
+                          <div class="usual-item">🥛 Milk</div>
+                          <div class="usual-item">🍞 Bread</div>
+                          <div class="usual-item">🍌 Bananas</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mockup-caption">
+                    <span class="caption-tag">Touchpoint 2</span>
+                    <h5>Daily Tab Screen Interface</h5>
+                    <p>Dedicated habitual landing page with 'Your Usuals' reorder shelf.</p>
+                  </div>
+                </div>
+
+                <!-- Mockup 3: Streak Reward & Reorder Row -->
+                <div class="mockup-card">
+                  <div class="mockup-media-box">
+                    <div class="mockup-device-wrapper mockup-rewards">
+                      <div class="streak-widget">
+                        <div class="streak-circles">
+                          <span class="streak-dot done">M</span>
+                          <span class="streak-dot done">T</span>
+                          <span class="streak-dot done">W</span>
+                          <span class="streak-dot done">T</span>
+                          <span class="streak-dot active">F</span>
+                          <span class="streak-dot">S</span>
+                          <span class="streak-dot">S</span>
+                        </div>
+                        <div class="streak-copy">
+                          <strong>Order today to unlock Free Express Delivery!</strong>
+                          <p>D30 Habit Loop target: 50% → 60% retention</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mockup-caption">
+                    <span class="caption-tag">Touchpoint 3</span>
+                    <h5>Streak Reward &amp; Reorder Mechanism</h5>
+                    <p>Gamified engagement mechanics that lower cognitive friction for daily orders.</p>
+                  </div>
+                </div>
+
+              </div>
+              <p class="mockup-notice">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                Mockup asset slots ready in <code>/assets</code> to drop in high-fidelity Figma exports.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SKILLS SECTION -->
+    <section id="skills" class="skills-section section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Capabilities</p>
+          <h2 class="section-title">Technical &amp; Design Skills</h2>
+          <p class="section-subtitle">Full-spectrum toolkit across intelligent agent architectures, generative tooling, and production software.</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 3.36 2.07 6.24 5 7.42V20a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2.58c2.93-1.18 5-4.06 5-7.42a8 8 0 0 0-8-8z"></path><line x1="9.5" y1="9" x2="9.5" y2="9"></line><line x1="14.5" y1="9" x2="14.5" y2="9"></line><path d="M10 13a4 4 0 0 0 4 0"></path></svg>
+              </div>
+              <h3 class="skill-category-name">AI / LLM</h3>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip highlight-chip">Google Gemini API</span>
+              <span class="skill-chip highlight-chip">Groq (LLaMA 3.3)</span>
+              <span class="skill-chip">Prompt Engineering</span>
+              <span class="skill-chip">GenAI</span>
+              <span class="skill-chip">RAG</span>
+              <span class="skill-chip">LangChain</span>
+              <span class="skill-chip">Custom GPTs</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"></path><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="m2 2 7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+              </div>
+              <h3 class="skill-category-name">Generative AI &amp; Design Tools</h3>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip highlight-chip">Stable Diffusion</span>
+              <span class="skill-chip">ComfyUI</span>
+              <span class="skill-chip">Midjourney</span>
+              <span class="skill-chip highlight-chip">Figma</span>
+              <span class="skill-chip">Blender</span>
+              <span class="skill-chip">KeyShot</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-name">Languages</h3>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip highlight-chip">Python</span>
+              <span class="skill-chip">JavaScript</span>
+              <span class="skill-chip">TypeScript</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip">C++</span>
+              <span class="skill-chip">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+              </div>
+              <h3 class="skill-category-name">Frameworks</h3>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip">FastAPI</span>
+              <span class="skill-chip">Flask</span>
+              <span class="skill-chip">Streamlit</span>
+              <span class="skill-chip">Gradio</span>
+              <span class="skill-chip">Node.js</span>
+              <span class="skill-chip">Express</span>
+              <span class="skill-chip">React</span>
+              <span class="skill-chip">Next.js</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="skill-category-name">Databases &amp; Data</h3>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip">PostgreSQL</span>
+              <span class="skill-chip">MySQL</span>
+              <span class="skill-chip">MongoDB</span>
+              <span class="skill-chip">Supabase</span>
+              <span class="skill-chip">Pandas</span>
+              <span class="skill-chip">NumPy</span>
+              <span class="skill-chip">Matplotlib</span>
+              <span class="skill-chip">Plotly</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+              </div>
+              <h3 class="skill-category-name">Tools &amp; Deployment</h3>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip">Git</span>
+              <span class="skill-chip">GitHub</span>
+              <span class="skill-chip">Vercel</span>
+              <span class="skill-chip">Render</span>
+              <span class="skill-chip">Postman</span>
+              <span class="skill-chip">n8n</span>
+              <span class="skill-chip">Linux</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CERTIFICATIONS SECTION -->
+    <section id="certifications" class="certifications-section section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Validation</p>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">Industry credentials validating enterprise workflows, generative models, and AI developer productivity.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15l-2 5l9-11h-7l2-5l-9 11h7z"></path></svg>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">ServiceNow</span>
+              <h3 class="cert-title">Certified Application Developer (CAD)</h3>
+              <p class="cert-meta">Enterprise application architecture &amp; automated workflows</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">SAP Certified</span>
+              <h3 class="cert-title">SAP Generative AI Developer</h3>
+              <p class="cert-meta">GenAI development, prompt pipelines &amp; business context</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <div class="cert-details">
+              <span class="cert-issuer">Microsoft</span>
+              <h3 class="cert-title">GitHub Copilot Certification</h3>
+              <p class="cert-meta">AI-assisted engineering, accelerated design-to-code workflows</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section id="contact" class="contact-section section">
+      <div class="container contact-container">
+        <div class="contact-card">
+          <p class="section-eyebrow">Get in touch</p>
+          <h2 class="contact-title">Let’s Build Intelligent Experiences Together</h2>
+          <p class="contact-intro">
+            Currently exploring opportunities in AI Generalist, AI Engineering, and Product Design roles. If you're building next-gen AI tooling or intelligent systems, I'd love to connect.
+          </p>
+
+          <div class="contact-cta-wrapper">
+            <a href="mailto:swapnilvatssv@gmail.com" class="btn btn-primary btn-large">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              swapnilvatssv@gmail.com
+            </a>
+
+            <div class="contact-social-row">
+              <a href="https://github.com/SwapVat" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub Profile
+              </a>
+              <a href="https://linkedin.com/in/vatswapnil" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                LinkedIn Profile
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-copy">&copy; 2026 Swapnil Vats</p>
+      <div class="footer-links">
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
